@@ -1,0 +1,36 @@
+\documentclass[11pt, a4paper]{report}
+\usepackage[utf8]{inputenc}
+\usepackage{pgfplots}
+
+\usepackage[top=2cm, bottom=2.3cm, left=2cm, right=2cm]{geometry}
+
+\title{Graficos das geracoes do NSGA2}
+\author{Douglas Nunes de Oliveira}
+\date{November 2021}
+
+
+\begin{document}
+    \begin{center}
+        \textbf{Utilizando o NSGA2 para o problema de Schaffer modificado.}
+        
+        \textbf{Gráficos do espaço dos objetivos nas gerações ``1, 10, 50, 100 e 1000''}
+        
+        
+    \end{center}
+    
+
+    \input{geracao01}
+    \hrulefill
+    \input{geracao10}
+
+    \newpage
+
+    \input{geracao50}
+    \hrulefill
+    \input{geracao100}
+    
+    \newpage
+    \input{geracao1000}
+    \hrulefill
+
+\end{document}
